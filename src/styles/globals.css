@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+
+}
+#__next{
+  height: 100%;
+}
+
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+.welcome-card {
+  border-radius: 20px;
+  box-shadow: -10px -10px 30px #cdcaca, 10px 10px 30px #cdcaca;
+}
+.welcome-logo img {
+  height: 70px;
+  height: 70px;
+}
+
+:focus-visible {
+  outline: 0 !important;
+}
+.terms input {
+  margin-right: 10px;
+}
+
+form .image-box {
+  height: 120px;
+  width: 120px;
+  border: 5px solid red;
+}
+.image-box img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+
+}
+
+.welcome-card .success-box {
+  height: 80px;
+  width: 80px;
+  border: 8px solid rgb(19, 91, 11);
+  background-color: rgb(31, 183, 31);
+}
+.otp-field input {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+button a {
+  width: 100%;
+  border: none;
+}
+
+.otp-field input[value] {
+  padding-left: 30px;
+}
+.otp-field input:focus {
+  border: 2px solid rgb(7, 170, 102);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
